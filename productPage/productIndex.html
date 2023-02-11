@@ -1,30 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
+    <head>
 <meta charset = "UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script defer src="productIndex.js"></script>
+  <!-- Google fonts import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">  
+  <!-- CSS -->
 <link rel="stylesheet" href ="productIndex.css">
-<head>
-    <title>4k Gold Karat Rose</title>
+</head>
 </head>
 <body>
-<div id = "container">
-<div id = "itemAndDescription">
-<img id = "imgNecklace" src="images/necklace.jpg" alt="Gold Necklace">
-<div id = "descriptionOnly">
-    <p id = "itemType"> JEWERLY </p>
-    <p id = "itemName"> <strong> Gold Karat Rose Necklace </strong></p>
-    <p id = "itemDescription"> This beautiful gold necklace was carefully curated by our jewlers in the Himalayas. The Gold was mined using ethical practices and all workers were provided a fair wage. This is not only a beautiful necklace but it is sustainable.</p>
-    <div class = "price">
-        <p id = "newPrice">$1799.99</p>
-        <p id = "oldPrice">$3499.99</p>
+<div class="container">
+<article id = "perfumeImage">
+  <picture>
+    <source media="(min-width: 600px)" srcset="images/images/image-product-desktop.jpg">
+    <img src="images/images/image-product-mobile.jpg" alt="Eau de Parfum">
+  </picture>
+  
+</article>
+
+<article class="container_content">
+
+    <p id="product_category">Perfume</p>
+
+    <h1 id="product_name">Gabrielle Essence Eau De Parfum</h1>
+  
+    <p id = "product_description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+    Perfumer-Creator for the House of CHANEL.</p>
+    <div class="prices">
+        <p id="product_price"> $149.99</p>
+         <p id = "product_orginal_price">$169.99</p>
     </div>
-    <div id = "addToCart">
-        <img id="cart" src = "images/websiteCart.jpg" alt="Picture of cart"> 
-        <button>Add to cart</button>
-    </div>
-</div>
-</div>
-</div>
+  
+   <button class="btn">
+    <img src="images/icon-cart.svg">Add to Cart
+   </button> 
+</article>
+
+
+
 </body>
 </html>
