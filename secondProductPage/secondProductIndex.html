@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script defer src="secondProductIndex.js"></script>
+<!-- Google fonts import -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+<link href="secondProductIndex.css" rel="stylesheet">
+</head>
+<body>
+<article>
+    <div id="nav-bar">
+        <div class="name_logo">
+        <img  id = "logo" src="images/logo.JPG" alt="Lotus Flower Logo">
+        <h1 id="websiteName">Mon<span>&egrave;</span></h1>
+        </div>
+        <div class="search_bar">
+            <form>
+        <div class="disappearing_prompt"><p id = "search_prompt">Type to search...</p><input id = "searchBarText" type="text"></div>
+        <input class = "searchButton" type="button" value="Search">
+        </form>
+        </div>
+        <nav class="nav_tab">
+            <ul class="nav_tab">
+                <li id="tabAboutUs"><a href="#">About Mon&egrave;</a></li>
+                 <div class="shop_container"><li id="tabShopOption">Shop</li>
+                <div class="shopCategories">
+                    <ul class="shopCategories">
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Tops</a></li>
+                <li><a href="#">Bottoms</a></li>
+                </ul>
+                </div>
+                </div>
+           <li id="tabReturnPolicy"><a href="#">Return Policy</a>
+           </li>
+           <li id="tabContactUs"><a href="#">Contact Us</a>
+           </li>
+           </ul>
+        </nav>
+    </div>
+</article>
+
+<!--Main Body-->
+
+<!--Grid with product and description-->
+<article>
+<div class="main_content_container">
+    <div class="product_gallery">
+        <div class="product_images">
+            <img src="images/dress_image_one.jpg" alt="Selkie Bridal Gown">
+            <img src="images/dress_image_two.jpg" alt="Selkie Bridal White Gown">
+            <img src="images/dress_image_three.jpg" alt="Selkie Bridal White Gown">
+            <img src="images/dress_image_four.jpg" alt="Selkie Bridal White Gown">
+        </div>
+    </div>
+    <div id="product_details">
+            <h1 class="content_name">The Ivory in Bloom Bridal Gown</h1>
+            <h3 class="price_item">$500.00</h3>
+        <h1 id="color_choices">Color </h1>
+        <div class="color_options">
+            <div id="color_one" class="color">  </div>
+            <div id="color_two" class="color">  </div>
+            <div id="color_three" class="color">  </div>
+        </div>
+        <h1 id="product_type_header">Type</h1>
+        <div class="product_type">
+            <div class = "product_type_one">Women</div>
+            <div class = "product_type_one">Petite</div>
+        </div>
+        <h1 id="product_size_header">Size</h1>
+        <div class="product_sizes">
+            <div>XXS</div>
+            <div>XS</div>
+            <div>S</div>
+            <div>M</div>
+            <div>L</div>
+            <div>XL</div>
+            <div>XXL</div>
+        </div>
+        <div class="check_out_container">
+            <div class="price_box">
+                <button id="subtract">-</button>
+                <div><p id="quantity">0</p></div>
+                <button id="add">+</button>
+            </div>
+            <div class="check_out_box">
+                <button id="check_out">Checkout</button>
+            </div>
+        </div>
+    </div>
+</div>
+</article>
+
+<!--Checkout-->
+<article>
+</article>
+</body>
+</html>
